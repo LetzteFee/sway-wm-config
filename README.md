@@ -55,7 +55,7 @@ __brightnessctl__ This tool works fine on my system but a single backlight manag
 1. Install the required packages
 
     ```shell
-    yay -S
+    yay -S sway swayidle swaylock wlogout waybar alacritty fuzzel brightnessctl pavumanager sov ttf-font-awesome ttf-jetbrains-mono ttf-roboto noto-fonts noto-fonts-extra
     ```
 
 2. Git clone the repository and copy the content in the .config folder in your home directory.
