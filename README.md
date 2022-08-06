@@ -14,6 +14,10 @@ __swayidle__ Programm that activates the lockscreen and disables the screen afte
 
 __swaylock__ lockscreen
 
+__wlogout__ Logout screen with options
+
+__waybar__ Status Bar
+
 __alacritty__ fast and simple terminal
 
 __fuzzel__ application launcher
@@ -23,8 +27,6 @@ __brightnessctl__ display brightness control
 __pavumanager__ PulseAudio Volume Manager
 
 __sov__ Workspace Overview
-
-__waybar__ Status Bar
 
 __ttf-font-awesome__ Font
 
