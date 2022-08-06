@@ -54,12 +54,13 @@ __brightnessctl__ This tool works fine on my system but a single backlight manag
 
 1. Install the required packages
 
-    ```bash
-    git clone 
+    ```shell
+    yay -S
     ```
 
 2. Git clone the repository and copy the content in the .config folder in your home directory.
 
     ```bash
+    git clone 
     cp sway-wm-config/* ~/.config/
     ```
