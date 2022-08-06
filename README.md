@@ -38,11 +38,13 @@ __noto-fonts-extra__ Font
 
 ---
 
-## References
+## References and Tips
 
 __Alacritty__ In [Alacritty](https://github.com/alacritty/alacritty) I use the [Night-Owl-Theme](https://github.com/sdras/night-owl-vscode-theme). The theme is originally for Visual Studio and the version for alacritty is found [here](https://github.com/alacritty/alacritty/wiki/Color-schemes).
 
 __waybar__ I use a few lines of code from a  project called [riverwm](https://github.com/theCode-Breaker/riverwm/tree/main/waybar/river).
+
+__brightnessctl__ This tool works fine on my system but a single backlight manager never works for every hardware configuration. You can find other tools on this [Arch Wiki Page](https://wiki.archlinux.org/title/Backlight).
 
 ---
 
@@ -50,4 +52,12 @@ __waybar__ I use a few lines of code from a  project called [riverwm](https://gi
 
 1. Install the required packages
 
+    ```bash
+    git clone 
+    ```
+
 2. Git clone the repository and copy the content in the .config folder in your home directory.
+
+    ```bash
+    cp sway-wm-config/* ~/.config/
+    ```
