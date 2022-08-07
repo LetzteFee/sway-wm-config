@@ -50,7 +50,7 @@ __brightnessctl__ This tool works fine on my system but a single backlight manag
 2. Clone the repository
 
     ```shell
-    git clone 
+    git clone https://github.com/LetzteFee/sway-wm-config.git
     ```
 
 3. Distribute the files
