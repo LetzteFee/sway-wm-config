@@ -1,6 +1,6 @@
 # Sway WM Config
 
-My Configuration for the Sway Window Manager and related Programms.
+My Configuration for the Sway Window Manager and related Programms. This repository does not have the purpose to contain my own up-to-date configuration but rather to provide a ready, clean and working configuration.
 
 ---
 
@@ -8,35 +8,23 @@ My Configuration for the Sway Window Manager and related Programms.
 
 _All Programms are available directly through the Arch Repositories or through the AUR._
 
-__sway__ Of course the window manager itself
-
-__swayidle__ Programm that activates the lockscreen and disables the screen after a certain amount of time
-
-__swaylock__ lockscreen
-
-__wlogout__ Logout screen with options
-
-__waybar__ Status Bar
-
-__alacritty__ fast and simple terminal
-
-__fuzzel__ application launcher
-
-__brightnessctl__ display brightness control
-
-__pavumanager__ PulseAudio Volume Manager
-
-__sov__ Workspace Overview
-
-__ttf-font-awesome__ Font
-
-__ttf-jetbrains-mono__ Font
-
-__ttf-roboto__ Font
-
-__noto-fonts__ Font
-
-__noto-fonts-extra__ Font
+| Programm			| Description				| Repository	| Linux Arch Package	|
+|-------------------------------|---------------------------------------|---------------|-----------------------|
+| __sway__ 			| the window manager itself		|		|			|
+| __swayidle__ 			| controls lockscreen and backlight	|		|			|
+| __swaylock__ 			| lockscreen				|		|			|
+| __wlogout__ 			| Logout screen with options		|		|			|
+| __waybar__ 			| Status Bar				|		|			|
+| __alacritty__ 		| fast and simple terminal		|		|			|
+| __fuzzel__ 			| application launcher			|		|			|
+| __brightnessctl__ 		| display brightness control		|		|			|
+| __pavumanager__ 		| PulseAudio Volume Manager		|		|			|
+| __sov__ 			| Workspace Overview			|		|			|
+| __ttf-font-awesome__ 		| Font					|		|			|
+| __ttf-jetbrains-mono__ 	| Font					|		|			|
+| __ttf-roboto__ 		| Font					|		|			|
+| __noto-fonts__ 		| Font					|		|			|
+| __noto-fonts-extra__ 		| Font					|		|			|
 
 ---
 
