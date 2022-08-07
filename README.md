@@ -66,3 +66,4 @@ __brightnessctl__ This tool works fine on my system but a single backlight manag
 * include the wallpaper
 * include the gtk theme and icons
 * clean and finish the code
+* check if all fonts are needed
