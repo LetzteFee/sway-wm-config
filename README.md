@@ -47,9 +47,22 @@ __brightnessctl__ This tool works fine on my system but a single backlight manag
     yay -S sway swayidle swaylock wlogout waybar alacritty fuzzel brightnessctl pavumanager sov ttf-font-awesome ttf-jetbrains-mono ttf-roboto noto-fonts noto-fonts-extra
     ```
 
-2. Git clone the repository and copy the content in the .config folder in your home directory.
+2. Clone the repository
 
     ```shell
     git clone 
-    cp sway-wm-config/* ~/.config/
     ```
+
+3. Distribute the files
+
+    ```shell
+    mv sway-wm-config/* ~/.config/
+    ```
+
+---
+
+## TODO
+
+* include the wallpaper
+* include the gtk theme and icons
+* clean and finish the code
