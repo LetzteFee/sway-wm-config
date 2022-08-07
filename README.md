@@ -10,8 +10,9 @@ _All Programms are available directly through the Arch Repositories or through t
 
 | Programm			| Description				| Repository	| Linux Arch Package	|
 |-------------------------------|---------------------------------------|---------------|-----------------------|
-| __sway__ 			| the window manager itself		|		|			|
-| __swayidle__ 			| controls lockscreen and backlight	|		|			|
+| __sway__ 			| the window manager itself		| [GitHub](https://github.com/swaywm/sway)	| [community](https://archlinux.org/packages/community/x86_64/sway/) |
+| __swaybg__ | Wallpaper tool | [GitHub](https://github.com/swaywm/swaybg) | [community](https://archlinux.org/packages/community/x86_64/swaybg/) |
+| __swayidle__ 			| controls lockscreen and backlight	| [GitHub](https://github.com/swaywm/swayidle) | [community](https://archlinux.org/packages/community/x86_64/swayidle/) |
 | __swaylock__ 			| lockscreen				|		|			|
 | __wlogout__ 			| Logout screen with options		|		|			|
 | __waybar__ 			| Status Bar				|		|			|
