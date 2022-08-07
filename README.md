@@ -4,11 +4,11 @@ My Configuration for the Sway Window Manager and related Programms. This reposit
 
 ---
 
-## Required Programms
+## Required Packages
 
-_All Programms are available directly through the Arch Repositories or through the AUR._
+_All Programms are available directly through the Arch Repositories or through the AUR. The themes all are from [GNOME-LOOK](https://www.gnome-look.org/browse/)._
 
-| Programm			| Description				| Repository	| Linux Arch Package	|
+| Package			| Description				| Repository	| Download		|
 |-------------------------------|---------------------------------------|---------------|-----------------------|
 | __sway__ 			| the window manager itself		| [GitHub](https://github.com/swaywm/sway)	| [community](https://archlinux.org/packages/community/x86_64/sway/) |
 | __swaybg__ | Wallpaper tool | [GitHub](https://github.com/swaywm/swaybg) | [community](https://archlinux.org/packages/community/x86_64/swaybg/) |
@@ -21,11 +21,14 @@ _All Programms are available directly through the Arch Repositories or through t
 | __brightnessctl__ 		| display brightness control		| [GitHub](https://github.com/Hummer12007/brightnessctl) | [community](https://archlinux.org/packages/community/x86_64/brightnessctl/) |
 | __pavucontrol__ 		| PulseAudio Volume Manager		| [freedesktop](https://freedesktop.org/software/pulseaudio/pavucontrol/) | [community](https://archlinux.org/packages/extra/x86_64/pavucontrol/) |
 | __sov__ 			| Workspace Overview			| [GitHub](https://github.com/milgra/sov) | [AUR](https://aur.archlinux.org/packages/sov) |
+| __wayshot-bin__ | Screenshot tool | [GitHub](https://github.com/waycrate/wayshot) | [AUR](https://aur.archlinux.org/packages/wayshot-bin)
 | __ttf-font-awesome__ 		| Font					| [Font Awesome](https://fontawesome.com/) | [community](https://archlinux.org/packages/community/any/ttf-font-awesome/) |
 | __ttf-jetbrains-mono__ 	| Font					| [jetbrains](https://jetbrains.com/lp/mono) | [community](https://archlinux.org/packages/community/any/ttf-jetbrains-mono/) |
 | __ttf-roboto__ 		| Font					| [Google](https://material.google.com/style/typography.html) | [community](https://archlinux.org/packages/community/any/ttf-roboto/) |
 | __noto-fonts__ 		| Font					| [Google Fonts](https://fonts.google.com/noto) | [extra](https://archlinux.org/packages/extra/any/noto-fonts/) |
 | __noto-fonts-extra__ 		| Font					| [Google Fonts](https://fonts.google.com/noto) | [extra](https://archlinux.org/packages/extra/any/noto-fonts-extra/) |
+| __graphite__ | GTK-Theme | [GitHub](https://github.com/vinceliuice/Graphite-gtk-theme) | [gnome-look](https://www.gnome-look.org/p/1598493) |
+| __kora__ | Icon Theme | [GitHub](https://github.com/bikass/kora) | [gnome-look](https://www.gnome-look.org/p/1256209) |
 
 ---
 
@@ -44,7 +47,7 @@ __brightnessctl__ This tool works fine on my system but a single backlight manag
 1. Install the required packages
 
     ```shell
-    yay -S sway swayidle swaylock wlogout waybar alacritty fuzzel brightnessctl pavumanager sov ttf-font-awesome ttf-jetbrains-mono ttf-roboto noto-fonts noto-fonts-extra
+    yay -S
     ```
 
 2. Clone the repository
@@ -59,11 +62,6 @@ __brightnessctl__ This tool works fine on my system but a single backlight manag
     mv sway-wm-config/* ~/.config/
     ```
 
----
+4. Install the themes
 
-## TODO
-
-* include the wallpaper
-* include the gtk theme and icons
-* clean and finish the code
-* check if all fonts are needed
+5. Put your wallpaper in ~/Pictures/backgrounds/ and name it 01.jpg

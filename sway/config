@@ -10,7 +10,7 @@ set $screenshot exec wayshot
 
 ### Output configuration
 
-output * bg ~/Pictures/backgrounds/winter.jpg fill
+output * bg ~/Pictures/backgrounds/01.jpg fill
 
 
 ### Idle configuration
