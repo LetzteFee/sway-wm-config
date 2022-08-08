@@ -4,7 +4,7 @@
     "spacing": 8,
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["sway/window"],
-    "modules-right": ["tray", "pulseaudio", "idle_inhibitor", "backlight", "battery", "network", "clock"],
+    "modules-right": ["tray", "pulseaudio", "custom/reloader", "idle_inhibitor", "backlight", "battery", "network", "clock"],
 
     "pulseaudio": {
         "scroll-step": 1, // %, can be a float
@@ -87,4 +87,8 @@
         // "format": "{: %I:%M %p   %d/%m/%Y}"
         "format": "{: %Y-%m-%d %I:%M %p}"
     },
+    "custom/reloader":{
+	    "format": " Reload",
+	    "on-click": "swaymsg 'exec killall waybar; reload'"
+    }
 }
