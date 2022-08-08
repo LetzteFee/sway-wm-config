@@ -32,16 +32,6 @@ _All Programms are available directly through the Arch Repositories or through t
 
 ---
 
-## References and Tips
-
-__Alacritty__ In [Alacritty](https://github.com/alacritty/alacritty) I use the [Night-Owl-Theme](https://github.com/sdras/night-owl-vscode-theme). The theme is originally for Visual Studio and the version for alacritty is found [here](https://github.com/alacritty/alacritty/wiki/Color-schemes).
-
-__waybar__ I use a few lines of code from a  project called [riverwm](https://github.com/theCode-Breaker/riverwm/tree/main/waybar/river).
-
-__brightnessctl__ This tool works fine on my system but a single backlight manager never works for every hardware configuration. You can find other tools on this [Arch Wiki Page](https://wiki.archlinux.org/title/Backlight).
-
----
-
 ## Installation
 
 1. Install the required packages
@@ -65,3 +55,15 @@ __brightnessctl__ This tool works fine on my system but a single backlight manag
 4. Install the themes
 
 5. Put your wallpaper in ~/Pictures/backgrounds/ and name it 01.jpg
+
+---
+
+## References and Tips
+
+__Alacritty__ In [Alacritty](https://github.com/alacritty/alacritty) I use the [Night-Owl-Theme](https://github.com/sdras/night-owl-vscode-theme). The theme is originally for Visual Studio and the version for alacritty is found [here](https://github.com/alacritty/alacritty/wiki/Color-schemes).
+
+__waybar__ I use a few lines of code from a  project called [riverwm](https://github.com/theCode-Breaker/riverwm/tree/main/waybar/river).
+
+__brightnessctl__ This tool works fine on my system but a single backlight manager never works for every hardware configuration. You can find other tools on this [Arch Wiki Page](https://wiki.archlinux.org/title/Backlight).
+
+__Applications__ You probably need new applications. KDE Apps don't look really great in Sway and are often bloated anyway. GNOME Apps often have limited functionality and require a headerbar. That makes them looking inefficient. That is the reason I switched to X-Apps. X-Apps are programms developed by the linux mint team to work on all desktop environments and to have the right amount of features. Additionally, I use the filemanager Nemo which is not an X-App but it still is my favourite filemanager and it is developed by the linux mint team, aswell.
